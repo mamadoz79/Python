@@ -8,7 +8,8 @@ def check_prime(number):
     """
     it's not the best solution
     """
-    special_non_primes = [0, 1, 2]
+    #2 is prime!
+    special_non_primes = [0, 1]
     if number in special_non_primes[:2]:
         return 2
     elif number == special_non_primes[-1]:
